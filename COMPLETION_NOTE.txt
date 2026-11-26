@@ -7,9 +7,10 @@ Completed locally:
 - Local privacy and terms pages, README, lockfile, and production build.
 - Completed acceptance matrix and five responsive screenshots are included under `evidence/`.
 - Public Vercel deployment: https://havenarc-realty.vercel.app
-- GitHub repository: https://github.com/RJB-24/HavenArc---Digital-Real-Estate-Agency
+- Local Git commit ready for target: https://github.com/RJB-24/HavenArc---Digital-Real-Estate-Agency
 
 Not completed:
+- GitHub push: target denied access with HTTP 403; grant the authenticated account write permission or provide another writable remote.
 - Google Drive review folder sharing: no destination folder or authorized reviewer supplied.
 - Firefox manual checks: not available in the attached Chromium browser.
 

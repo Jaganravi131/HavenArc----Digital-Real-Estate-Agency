@@ -69,8 +69,8 @@ Set `CHROME_BIN` if Chrome is installed at a non-default path. Set `PAGE_URL` if
 ## Deployment handoff
 
 Production site: <https://havenarc-realty.vercel.app>.
-Source repository: <https://github.com/RJB-24/HavenArc---Digital-Real-Estate-Agency>.
+Target repository: <https://github.com/RJB-24/HavenArc---Digital-Real-Estate-Agency>. Local commit is ready, but GitHub rejected push because the authenticated account lacks write access.
 
 Vercel builds the project with `npm ci` and `npm run build`, then serves `dist/`. `.vercelignore` excludes the confidential brief, screenshots, local environment files, and submission-only documents from deployment uploads.
 
-`.gitignore` excludes the confidential brief and local Vercel credentials from the public source repository. No authorized Google Drive review folder was supplied. Do not describe the local form as a working lead-submission service.
+`.gitignore` excludes the confidential brief and local Vercel credentials from Git. Grant write access to the target repository or provide a writable remote to publish the source. No authorized Google Drive review folder was supplied. Do not describe the local form as a working lead-submission service.
