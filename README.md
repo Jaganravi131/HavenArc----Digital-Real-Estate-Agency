@@ -73,4 +73,4 @@ Source repository: <https://github.com/Jaganravi131/HavenArc----Digital-Real-Est
 
 Vercel builds the project with `npm ci` and `npm run build`, then serves `dist/`. `.vercelignore` excludes the confidential brief, screenshots, local environment files, and submission-only documents from deployment uploads.
 
-`.gitignore` excludes the confidential brief and local Vercel credentials from Git. Grant write access to the target repository or provide a writable remote to publish the source. No authorized Google Drive review folder was supplied. Do not describe the local form as a working lead-submission service.
+`.gitignore` excludes the confidential brief and local Vercel credentials from Git. The supplied Drive folder contains the README, completion note, acceptance matrix, interaction notes, and viewport screenshots. Do not describe the local form as a working lead-submission service.
