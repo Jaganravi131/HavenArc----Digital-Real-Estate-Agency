@@ -12,7 +12,7 @@ Production and code quality
 - Live deployment renders all six fixture IDs; six WebP image requests return HTTP 200; browser console has no errors.
 - Vercel dry-run excluded `INPUT_FILES/`, `.env.local`, `evidence/`, and submission-only documents.
 - Vercel SSO protection is disabled for this public site; generated automation bypass secrets were revoked.
-- GitHub target: `https://github.com/RJB-24/HavenArc---Digital-Real-Estate-Agency`; push was rejected with HTTP 403 because authenticated account lacks write permission.
+- GitHub target: `https://github.com/Jaganravi131/HavenArc----Digital-Real-Estate-Agency`; repository is public and empty before push.
 - Local Git excludes `INPUT_FILES/`, `START_HERE.txt`, `SUBMISSION_CHECKLIST.txt`, `.env.local`, and `.vercel/`.
 
 Responsive viewport evidence
@@ -42,4 +42,4 @@ Enquiry form
 
 Unavailable checks
 - Firefox manual testing: BLOCKED; Firefox is not installed or available in this environment.
-- GitHub push and Google Drive sharing: BLOCKED pending write permission and authorized folder details.
+- Google Drive sharing: BLOCKED pending authorized folder details.

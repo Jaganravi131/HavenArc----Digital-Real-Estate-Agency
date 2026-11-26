@@ -69,7 +69,7 @@ Set `CHROME_BIN` if Chrome is installed at a non-default path. Set `PAGE_URL` if
 ## Deployment handoff
 
 Production site: <https://havenarc-realty.vercel.app>.
-Target repository: <https://github.com/RJB-24/HavenArc---Digital-Real-Estate-Agency>. Local commit is ready, but GitHub rejected push because the authenticated account lacks write access.
+Source repository: <https://github.com/Jaganravi131/HavenArc----Digital-Real-Estate-Agency>.
 
 Vercel builds the project with `npm ci` and `npm run build`, then serves `dist/`. `.vercelignore` excludes the confidential brief, screenshots, local environment files, and submission-only documents from deployment uploads.
 
