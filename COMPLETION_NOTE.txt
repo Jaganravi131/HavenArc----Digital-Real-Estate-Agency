@@ -1,0 +1,16 @@
+HavenArc Realty — completion handoff
+
+Completed locally:
+- Responsive React/Vite landing page with modular components and local property illustrations.
+- Six featured listings with CSV-matched IDs, locations, layouts, areas, and display prices.
+- Accessible mobile navigation and client-side-only enquiry validation.
+- Local privacy and terms pages, README, lockfile, and production build.
+- Completed acceptance matrix and five responsive screenshots are included under `evidence/`.
+- Public Vercel deployment: https://havenarc-realty.vercel.app
+- GitHub repository: https://github.com/RJB-24/HavenArc---Digital-Real-Estate-Agency
+
+Not completed:
+- Google Drive review folder sharing: no destination folder or authorized reviewer supplied.
+- Firefox manual checks: not available in the attached Chromium browser.
+
+Form limitation: no enquiry data is stored or transmitted. Successful validation is a local preview only.

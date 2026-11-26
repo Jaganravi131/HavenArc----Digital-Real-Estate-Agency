@@ -1,0 +1,12 @@
+INPUT_FILES/
+evidence/
+node_modules/
+dist/
+.git/
+.vercel/
+.env
+.env.*
+START_HERE.txt
+SUBMISSION_CHECKLIST.txt
+ACCEPTANCE_TEST_MATRIX.csv
+COMPLETION_NOTE.txt

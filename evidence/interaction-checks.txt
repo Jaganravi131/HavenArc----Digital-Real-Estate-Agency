@@ -1,0 +1,45 @@
+HavenArc Realty — verification record
+Date: 26 November 2026
+Environment: Windows desktop; Node.js 24.20.0; npm 10.9.0; Chrome 158.0.8127.38; Vite 8.3.8.
+
+Production and code quality
+- `npm run lint`: PASS using eslint-config-airbnb.
+- `npm run build`: PASS; production assets emitted to `dist/`.
+- `npm audit`: PASS; zero known vulnerabilities.
+- Browser console after fresh page load: no warnings or errors.
+- Lighthouse on local and production pages: Accessibility 100, Best Practices 100, SEO 100; no reported failures.
+- Public Vercel production URL: `https://havenarc-realty.vercel.app`; homepage, privacy, terms, and robots routes return HTTP 200.
+- Live deployment renders all six fixture IDs; six WebP image requests return HTTP 200; browser console has no errors.
+- Vercel dry-run excluded `INPUT_FILES/`, `.env.local`, `evidence/`, and submission-only documents.
+- Vercel SSO protection is disabled for this public site; generated automation bypass secrets were revoked.
+- Public GitHub repository: `https://github.com/RJB-24/HavenArc---Digital-Real-Estate-Agency`.
+- Public source excludes `INPUT_FILES/`, `START_HERE.txt`, `SUBMISSION_CHECKLIST.txt`, `.env.local`, and `.vercel/`.
+
+Responsive viewport evidence
+- 320 CSS px: document width 320; six cards; no image failures.
+- 390 CSS px: document width 390; six cards; no image failures.
+- 768 CSS px: document width 753, within 768px viewport after scrollbar; two property columns.
+- 1200 CSS px: document width 1185, within 1200px viewport after scrollbar; three property columns.
+- 1440 CSS px: document width 1425, within 1440px viewport after scrollbar; three property columns.
+- Full-page screenshots: `320px.png`, `390px.png`, `768px.png`, `1200px.png`, `1440px.png`.
+
+Navigation and content
+- All header hash links resolve to existing section IDs; privacy, terms, and robots routes return HTTP 200.
+- Mobile menu opens with Enter, closes with Escape, returns focus to its button, and closes after selecting Explore homes.
+- One H1, header/main/footer landmarks, six fixture-matched listing cards, all required benefits, and all three process steps verified.
+- All six WebP assets decode; each listing image has descriptive illustration alt text.
+
+Enquiry form
+- Empty required fields: blocked with field-specific errors, aria-invalid, associated error IDs, and focus moved to the error summary.
+- One-character name: blocked.
+- Malformed email: blocked.
+- Inline field errors remain until the corresponding input becomes valid.
+- Missing city: blocked.
+- Unchecked consent: blocked.
+- Valid input: exact local-only confirmation displayed; form values cleared; submit disabled against repeat submission.
+- The form has no action or network/storage code; browser URL stayed unchanged and local/session storage remained empty.
+- No personal values are included in this verification record.
+
+Unavailable checks
+- Firefox manual testing: BLOCKED; Firefox is not installed or available in this environment.
+- Google Drive sharing: BLOCKED pending authorized folder details.
